@@ -1,0 +1,828 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	font-family: Sansation, Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* Header Styling */
+.navbar {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/* navbar logo style*/
+.logo {
+	height: Auto;
+	margin-left: 50px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+.logo img{
+	width: 200px;
+}
+
+
+/* hamburger-menu style */
+.hamburger-menu {
+	display: none;
+	cursor: pointer;
+	margin-right: 30px;
+}
+
+/* navbar list style */
+.list {
+	display: flex;
+	margin: 0px auto;
+}
+
+.list ul {
+	display: flex;
+	align-items: center;
+}
+
+.list ul li {
+	align-items: center;
+	margin: 20px;
+}
+
+.list ul li a {
+		font-weight: bold;		
+	color: #CC0000;
+	padding: 7px 14px;
+	font-size: 20px;
+}
+
+.list ul li a:hover {
+	background-color: rgba(230, 130, 30, 0.3);
+	border-radius: 5px;
+	letter-spacing: 0.5px;
+}
+
+/* navbar button style*/
+.btn {
+	margin: 20px 80px;
+	background-color: #CC0000;
+	color: white;
+	padding: 10px;
+	align-items: center;
+	border: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+}
+
+/* home section style */
+#home {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 50px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	height: 90vh;
+	margin-top: -60px;
+}
+
+.home-text {
+	margin: 70px;
+	
+}
+
+.home-head {
+	color: rgb(56, 48, 48);
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.home-head span {
+	display: block;
+	font-size: 25px;
+	font-weight: light;
+	color: #CC0000;
+	line-height: 4;
+}
+
+.home-detail {
+	margin: 50px;
+	font-size: 25px;
+	margin-left: 10px;
+	color: gray;
+}
+
+.home-img img {
+	width: 800px;
+	margin-right: 50px;
+}
+
+/* about us section style */
+#about {
+	background-image: url(Assets/about.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	position: relative;
+	flex-wrap: wrap;
+}
+
+.about-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 40px;
+	border-radius: 10px;
+	max-width: 100%;
+	height: 100vh;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.about-overlay h1 {
+	color: #CC0000;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.about-head span {
+	display: block;
+	color: #CC0000;
+	font-size: 35px;
+	margin-bottom: 50px;
+	font-weight: 600;
+}
+
+.about-head {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.about-detail {
+	font-size: 20px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	font-weight: bold;
+}
+
+/* course section style */
+#courses {
+	width: 100%;
+	height: auto;
+}
+
+.course-head h1 {
+	color: #CC0000;
+	font-size: 40px;
+	line-height: 2;
+	font-weight: bold;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.course-detail {
+	font-size: 30px;
+	color: rgb(143, 130, 130);
+	font-weight: bold;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.courses-box {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.course-box-1 {
+	border: white solid 2px;
+	margin-left: 23px;
+	border-radius: 10px;
+	box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
+	width: 600px;
+}
+
+.course-box-1 img {
+	width: 100%;
+	height: 400px;
+	border-radius: 10px;
+}
+
+.course-box-1 > h1 {
+	font-size: 28px;
+	color: #CC0000;
+	margin-top: 10px;
+}
+
+.course-box-1 > p {
+	color: grey;
+	padding: 10px;
+}
+
+/*  admission section styling */
+#admission {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 30px;
+}
+
+.admission-header h1 {
+	color:#CC0000;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 50px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.admission-detail {
+	font-size: 30px;
+	color: rgb(143, 130, 130);
+	font-weight: bold;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	line-height: 2;
+}
+
+.admission-detail span {
+	display: block;
+	font-size: 25px;
+	font-weight: 400;
+	color: #CC0000;
+	line-height: 2;
+}
+
+.offer-flex {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	margin: 50px;
+	
+}
+
+
+.head {
+	font-size: 25px;
+	color:#CC0000;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.offer-flex li {
+	color: grey;
+	padding: 10px;
+	list-style-type: disc;
+	
+}
+
+/* contact section styling */
+#contact {
+	background-image: url(Assets/cont.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.contactUs {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 40px;
+	border-radius: 10px;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5;
+	min-height: 100vh;
+	height: auto;
+}
+
+.contactUs h1 {
+	color: #CC0000;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 50px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.contact-detail span {
+	display: inline-block;
+	font-size: 25px;
+}
+
+.contact-detail {
+	font-size: 30px;
+	color: #8b0505;
+	font-weight: bold;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	line-height: 2;
+}
+
+.contact-info > p {
+	color: white;
+}
+
+.contact-info span {
+	color: #8b0505;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.social-links p {
+	color: #8b0505;
+	font-size: 28px;
+}
+
+.social-links a {
+	color: white;
+	font-size: 25px;
+}
+
+form {
+	margin-top: -10px;
+}
+
+form p {
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+}
+
+input {
+	width: 12vw;
+	height: 4vh;
+	border-radius: 10px;
+	border: 3px solid white;
+}
+
+textarea {
+	border-radius: 10px;
+	width: 12vw;
+	height: 8vh;
+}
+
+button {
+	background-color: #CC0000;
+	color: white;
+	padding: 7px 13px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+/* footer styling */
+footer {
+	font-weight: bold;
+	color: #CC0000;
+	width: 100%;
+	margin-top: 6px;
+	text-align: center;
+}
+
+footer p {
+	padding: 10px;
+}
+
+/* registration form styling */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	overflow: auto;
+}
+
+.modal-content {
+	background: #ffffff;
+	margin: 5% auto;
+	padding: 30px 40px;
+	border-radius: 10px;
+	width: 100%;
+	max-width: 500px;
+	position: relative;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	font-size: 28px;
+	color: #CC0000;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.modal-content h2 {
+	text-align: center;
+	color: #CC0000;
+	margin-bottom: 20px;
+}
+
+input[type="tel"] {
+	background-image: none !important;
+	background-color: white;
+}
+
+.admission-form input,
+.admission-form select,
+.admission-form textarea {
+	width: 100%;
+	padding: 12px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+	background-color: #fff;
+	color: #333;
+}
+
+.admission-form button {
+	background-color: #CC0000;
+	color: white;
+	font-weight: bold;
+	border: none;
+	padding: 12px;
+	margin-top: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+.admission-form button:hover {
+	background-color: #CC0000;
+}
+
+/* for responsive design */
+@media screen and (max-width: 800px) {
+	/* for hamburer-menu */
+	.hamburger-menu {
+		display: block;
+	}
+
+	.list {
+		display: none;
+		flex-direction: column;
+		background-color: #CC0000;
+		width: 100%;
+		padding: 5px;
+	}
+
+	.list.active {
+		display: flex;
+	}
+
+	.list ul li {
+		margin: 4px;
+	}
+
+	.list ul li a {
+		padding: 3px 5px;
+		font-size: 13px;
+		color: white;
+
+	}
+
+	.btn {
+		padding: 6px;
+		display: none;
+		font-size: 14px;
+	}
+
+	.btn.active {
+		display: block;
+		margin: 10px auto;
+	}
+
+	/* for logo */
+	.logo {
+	margin: 0px auto;
+	}
+	.logo img{
+		width: 100px;
+		
+	}
+
+	.logoname {
+		font-size: 16px;
+	}
+
+	/* home section styling */
+	#home {
+		height: 50vh;
+		margin-left: -10px;
+	}
+	 
+	.home-head {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.home-head h1 {
+		color: rgb(56, 48, 48);
+		font-weight: bold;
+		font-size: 20px;
+		margin-left: -10px;
+	}
+
+	.home-head span {
+		font-size: 16px;
+		line-height: 3;
+	}
+
+	.home-detail {
+		font-size: 13px;
+		line-height: 2;
+		margin: 3px;
+	}
+
+	.home-img img {
+		object-fit: cover;
+		width: 400px;
+		height: auto;
+		margin-top: -150px;
+	}
+
+	/* about us section */
+	#about {
+		height: 70vh;
+		margin-top: 150px;
+	}
+
+	.about-overlay {
+		padding: 10px;
+		height: 70vh;
+		line-height: 1.2;
+	}
+
+	.about-overlay h1 {
+		font-size: 25px;
+		margin-top: 30px;
+		line-height: 2;
+	}
+
+	.about-head span {
+		font-size: 24px;
+		margin-bottom: 30px;
+		font-weight: 600;
+	}
+
+	.about-head {
+		font-size: 15px;
+		margin-bottom: 30px;
+	}
+
+	.about-detail {
+		font-size: 13px;
+		width: 80%;
+		margin: 0px auto;
+	}
+
+	/* course section style */
+	#courses {
+		margin-top: -30px;
+	}
+
+	.course-head h1 {
+		font-size: 25px;
+	}
+
+	.course-detail {
+		font-size: 13px;
+		margin: 15px;
+	}
+
+	.courses-box {
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.course-box-1 {
+		margin: 10px 30px;
+		width: 80vw;
+	}
+
+	.course-box-1 img {
+		width: 100%;
+		height: 250px;
+	}
+
+	.course-box-1 > h1 {
+		font-size: 18px;
+	}
+
+	.course-box-1 > p {
+		padding: 5px;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	/* its admission section styling */
+	#admission {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 15px;
+	}
+
+	.admission-header h1 {
+		font-size: 25px;
+		margin-top: 20px;
+	}
+
+	.admission-detail {
+		font-size: 15px;
+		margin-bottom: 15px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.admission-detail span {
+		display: block;
+		font-size: 15px;
+		line-height: 2;
+	}
+
+	.offer-flex {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		justify-content: center;
+	}
+
+	.head {
+		font-size: 18px;
+		margin: 8px;
+	}
+
+	.offer-flex li {
+		padding: 10px;
+		font-size: 13px;
+	}
+
+	/* contact section styling */
+
+	.contactUs {
+		padding: 20px;
+		min-height: 50vh;
+	}
+
+	.contactUs h1 {
+		font-size: 25px;
+		margin-top: 20px;
+	}
+
+	.contact-detail span {
+		font-size: 15px;
+	}
+
+	.contact-detail {
+		font-size: 15px;
+		margin-bottom: 15px;
+	}
+
+	.contact-info > p {
+		color: white;
+		font-size: 13px;
+	}
+
+	.contact-info span {
+		font-weight: bold;
+		font-size: 15px;
+		margin: 10px;
+	}
+
+	.social-links p {
+		font-size: 13px;
+		margin: 10px;
+	}
+
+	.social-links a {
+		font-size: 13px;
+		margin: 10px;
+	}
+
+	form p {
+		font-size: 13px;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	input {
+		width: 60vw;
+		height: 4vh;
+		margin: 10px;
+	}
+
+	textarea {
+		width: 50vw;
+	}
+
+	button {
+		padding: 4px 8px;
+		font-size: 9px;
+	}
+
+	/* footer styling */
+	footer {
+		width: 100%;
+		margin-top: 3px;
+	}
+
+	footer p {
+		padding: 10px;
+		font-size: 13px;
+	}
+
+	/* registration form styling */
+
+	.modal-content {
+		padding: 5px 9px;
+		max-width: 250px;
+	}
+
+	.close {
+		font-size: 18px;
+	}
+
+	.modal-content h2 {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+
+	.admission-form input,
+	.admission-form select,
+	.admission-form textarea {
+		width: 90%;
+		padding: 6px;
+		margin-top: 10px;
+		font-size: 9px;
+	}
+	.admission-form label {
+		font-size: 13px;
+	}
+
+	.admission-form button {
+		padding: 6px;
+		margin-top: 10px;
+		font-size: 9px;
+	}
+
+	.admission-form button:hover {
+		background-color: #e67e00;
+	}
+}
