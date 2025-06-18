@@ -96,7 +96,7 @@ body {
 	justify-content: space-between;
 	gap: 50px;
 	margin: 0 auto;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	height: 90vh;
 	margin-top: -60px;
 }
@@ -561,13 +561,14 @@ input[type="tel"] {
 
 	/* home section styling */
 	#home {
-		height: 50vh;
-		margin-left: -10px;
+			height: 60vh;
+		flex-direction: column;
+		margin-top: -10px;
 	}
 	 
 	.home-head {
 		display: flex;
-		flex-direction: column;
+		
 	}
 
 	.home-head h1 {
@@ -592,7 +593,7 @@ input[type="tel"] {
 		object-fit: cover;
 		width: 400px;
 		height: auto;
-		margin-top: -150px;
+		margin: -100px;
 	}
 
 	/* about us section */
